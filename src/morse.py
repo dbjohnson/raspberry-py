@@ -126,9 +126,9 @@ if __name__ == '__main__':
                 rainbow()
 
     except:
-            print 'bye'
-            if player is not None and player.isAlive():
-                player.interrupt()
-                player.join()
+        print 'bye'
+        if player is not None and player.isAlive():
+            player.interrupt()
+            player.join()
 
-            GPIO.cleanup()
+        GPIO.cleanup()

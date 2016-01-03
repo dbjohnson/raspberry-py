@@ -22,7 +22,6 @@ GPIO.setup(button, GPIO.IN)
 
 
 if __name__ == '__main__':
-
     try:
         idx = len(pins) - 1
         while True:
@@ -34,5 +33,5 @@ if __name__ == '__main__':
             else:
                 GPIO.output(pins[idx % len(pins)], False)
     except:
-            print 'bye'
-            GPIO.cleanup()
+        print 'bye'
+        GPIO.cleanup()
