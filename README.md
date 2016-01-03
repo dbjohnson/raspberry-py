@@ -1,4 +1,4 @@
-dbj-raspberry-py
+#Raspberry-py
 ================
 
-Raspberry pi stuff
+Little scripts for playing with GPIO, etc, on the raspberry pi.  Nothing terribly interesting.
